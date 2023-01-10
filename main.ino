@@ -12,8 +12,8 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 #define ON_Board_LED 2
 #define Relay 23
 
-const char* ssid = "POCONGM3";
-const char* password = "donatsiang";
+const char* ssid = "YOURSSID";
+const char* password = "YOURPASSWORD";
 
 const char* host = "script.google.com";
 const int httpsPort = 443;
