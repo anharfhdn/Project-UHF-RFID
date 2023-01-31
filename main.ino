@@ -12,14 +12,14 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 #define ON_Board_LED 2
 #define Relay 23
 
-const char* ssid = "POCONGM3";
-const char* password = "donatsiang";
+const char* ssid = "YOURSSID";
+const char* password = "YOURPASSWORD";
 
 const char* host = "script.google.com";
 const int httpsPort = 443;
 const String location = "Kontrakan";
 
-String GAS_ID =  "AKfycbyPMtpgNJejsp8MpXKNlbP9efYg_PjZFTvGPjRo_ttReDiDbhG5Z6XxVcHlOAhlCc4h";
+String GAS_ID =  "YOUR_APPSCIRPT_GASID";
 
 uint64_t openGateMillis = 0;
 unsigned long previousMillis = 0;
